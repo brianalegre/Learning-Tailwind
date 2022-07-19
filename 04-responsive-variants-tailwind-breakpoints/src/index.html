@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output/tailwind.css">
+    <title>Tailwind Project</title>
+</head>
+
+<!-- 
+    h-screen -          height: 100vh;
+    flex -              display: flex;
+    items-center -      align-items: center;
+    justify-center -    justify-content: center;
+    bg-emerald-400 -    background-color: emeraald;
+-->
+
+<body class="h-screen flex items-center justify-center bg-emerald-400">
+
+    <!-- 
+    max-w-sm -              max-width: 24rem (384px);
+    mx-auto -               margin-left, margin right: auto;
+    p-12 -                  padding: 3rem (48px);
+    bg-white -              background-color: white;
+    rounded-x1 -            border-radius: 0.75rem (12px);
+    shadow-lg -             box-shadow: custom var
+    space-y-4 -             margin-top, margin-bottom: custom var
+-->
+    <div class="max-w-sm mx-auto p-12 bg-white rounded-x1 shadow-lg space-y-4">
+
+        <!-- 
+        h-24 -              height: 6rem (96px);
+        mx-auto -           margin-left, margin-right: auto;
+        rounded-full -      border-radius: 9999px (Full Rounded)
+        ring-4 -            box-shadow: custom var
+        ring-green-600 -    change box-shadow color
+        -->
+        <img class="h-24 mx-auto rounded-full ring-4 ring-green-600" src="../images/brian.jpg" alt="logo">
+
+        <!-- 
+        text-center -       text-align: center
+        space-y-2 -         margin-top, margin-bottom: custom var
+        -->
+        <div class="text-center space-y-2">
+            <div>
+                <!-- 
+                text-lg -           font-size: 1.125rem (18px); line-height: 1.75rem (28px);           
+                text-black -        color: black;
+                font-bold -         font-weight: bold;
+                -->
+                <p class="text-lg text-black font-bold">Easy Learning</p>
+
+                <!-- 
+                text-gray-500 -     color: gray;
+                font-medium -       font-weight: 500
+                -->
+                <p class="text-gray-500 font-medium">Course Link</p>
+
+            </div>
+            <!-- 
+            px-4 -                  padding-left, padding-right: 1rem (16px);
+            py-1 -                  padding-top, padding-bottom: 0.25rem (4px);
+            border -                border-width: 1px;
+            border-cyan-500 -       border-color: cyan;
+            text-sm -               font-size: 0.875rem (14px); line-height: 1.25rem (20px);  
+            text-green-400 -        color: green
+            font-medium -           font-weight: 500
+            bg-green-900 -          background-color: green
+            rounded-xl -            border-radius: 0.75rem (12px);
+            -->
+            <button
+                class="px-4 py-1 border border-cyan-500 text-sm text-green-400 font-medium bg-green-900 rounded-xl">Learn
+                More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
