@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output/tailwind.css">
+    <title>Tailwind Project</title>
+</head>
+
+<body class="h-screen flex items-center justify-center bg-emerald-400">
+
+    <div
+        class="max-w-sm mx-auto p-12 bg-white rounded-x1 shadow-lg space-y-4 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6">
+
+        <!-- 
+        transform -             setup to transform the element
+        hover:scale-105 -       On hover, makes the img bigger
+        duration-300 -          transition-duration: 300ms
+        -->
+        <img class="h-24 mx-auto rounded-full ring-4 ring-green-600 sm:flex-shrink-0 transform hover:scale-105 duration-300"
+            src="../images/brian.jpg" alt="logo">
+        <div class="text-center space-y-2 sm:text-left">
+            <div>
+                <p class="text-lg text-black font-bold">Easy Learning</p>
+                <p class="text-gray-500 font-medium">Course Link</p>
+            </div>
+
+            <!--  
+            hover:bg-green-400 -        Change the background color on hover
+            hover:text-white -          Change the text color on hover
+            hover:border-transparent -  Changes the border color to transparent
+            focus:outline-none -        Tells the browser not to focus on the item
+            focus:ring-4 -              Applies a ring around the element on hover
+            focus:ring-offset-2 -       Adds spacing in the ineer cicle
+            -->
+            <button
+                class="px-4 py-1 border border-cyan-500 text-sm text-green-400 font-medium bg-green-900 hover:bg-green-400 hover:text-white hover:border-transparent focus:outline-none focus:ring-4 focus:ring-red-500 focus:ring-offset-2 rounded-xl">
+                Learn More
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
