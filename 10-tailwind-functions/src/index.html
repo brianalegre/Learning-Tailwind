@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output/tailwind.css">
+    <title>Tailwind Project</title>
+</head>
+
+<body class="h-screen flex items-center justify-center bg-emerald-400 dark:bg-slate-900">
+    <div
+        class="max-w-sm mx-auto p-12 bg-white rounded-x1 shadow-lg space-y-4 sm:flex sm:items-center sm:py-4 sm:space-y-0 sm:space-x-6 dark:bg-slate-500">
+        <img class="h-24 mx-auto rounded-full ring-4 ring-green-600 sm:flex-shrink-0 transform hover:scale-105 duration-300"
+            src="../images/brian.jpg" alt="logo">
+        <div class="text-center space-y-2 sm:text-left">
+            <div>
+
+                <img class="moon cursor-pointer h-8 mx-auto" src="../images/moon.png" alt="moon">
+                <img class="sun cursor-pointer h-8 mx-auto" src="../images/sun.png" alt="sun">
+
+                <!-- Changed to H1 to test Base Layer in tailwind.css -->
+                <h1 class="text-black font-bold">Easy Learning</p>
+                    <p class="text-gray-500 font-medium">Course Link</p>
+            </div>
+
+            <button class="btn-green btn">
+                Learn More
+            </button>
+            <button class="btn-red btn">
+                Learn More
+            </button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
