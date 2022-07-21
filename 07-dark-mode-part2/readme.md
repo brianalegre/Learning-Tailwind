@@ -1,4 +1,4 @@
-## DARK MODE PART 1
+## DARK MODE PART 2
 
 ## Installation
 - Updated tailwind.config.js
@@ -14,5 +14,12 @@
         extend: {},
     },
     plugins: [],
+    }
+    ```
+
+- Added to tailwind.css
+    ```
+    .display-none {
+    @apply hidden;
     }
     ```
