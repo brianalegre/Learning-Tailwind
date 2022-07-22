@@ -1,4 +1,4 @@
-## Tailwind Functions
+## Tailwind Configurations - Advanced Concepts
 
 ## Summary
 - This goes over the theme() and screen() tailwind functions

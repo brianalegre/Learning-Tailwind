@@ -574,9 +574,9 @@ video {
   justify-content: center;
 }
 
-.bg-emerald-400 {
+.bg-gray-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 /* Sets the font size to 30px when the screen is sm */
@@ -592,12 +592,5 @@ video {
 @media (min-width: 1280px) {
   .text-body {
     font-size: 50px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-slate-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   }
 }
