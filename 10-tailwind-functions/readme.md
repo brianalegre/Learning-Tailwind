@@ -1,7 +1,7 @@
-## Layer Directive
+## Tailwind Functions
 
 ## Summary
-- Layer Directive is a way to overwrite some of the preset settings for a class or element. 
+- This goes over the theme() and screen() tailwind functions
 
 ## Installation
 - Updated tailwind.config.js

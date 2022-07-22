@@ -2,34 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.display-none {
-    @apply hidden;
-}
 
-/* Updates the base settings of tailwind for h1 */
-@layer base {
-    h1 {
-        @apply text-2xl
+/* Sets the font size to 30px when the screen is sm */
+@media screen(sm) {
+    .text-body {
+        font-size: 30px;
     }
 }
 
-/* Everything is placed in the components section of the tailwindcss */
-@layer components {
-/* Remove the common parts in the .btn-green and .btn-red, and put them in one custom class */
-.btn {
-    @apply  hover:text-white hover:border-transparent focus:outline-none focus:ring-4 focus:ring-red-500 focus:ring-offset-2 rounded-xl dark:text-white
+/* Sets the font size to 50px when the screen is XL */
+@media screen(xl) {
+    .text-body {
+        font-size: 50px;
+    }
 }
-
-/* Custom CSS Class with Tailwindcss classes */
-.btn-green {
-    @apply px-4 py-1 border border-cyan-500 text-sm text-green-400 font-medium bg-green-900 hover:bg-green-400 
-}
-
-/* Custom CSS Class with Tailwindcss classes */
-.btn-red {
-    @apply px-4 py-1 border border-cyan-500 text-sm text-red-400 font-medium bg-red-900 hover:bg-red-300
-}
-
-}
-
-
