@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Sets the font size to 30px when the screen is sm */
+@media screen(sm) {
+    .text-body {
+        font-size: 30px;
+    }
+}
+
+/* Sets the font size to 50px when the screen is XL */
+@media screen(xl) {
+    .text-body {
+        font-size: 50px;
+    }
+}
