@@ -12,14 +12,27 @@
 <body>
 
     <!--  
-    tailwindcss width: https://tailwindcss.com/docs/width
-    tailwindcss height: https://tailwindcss.com/docs/height
-    w-1/3 -          width: 33.3%;  // Sets the width to 1/3 of the screen size
-    h-40 -           height: 10rem (160px) // Sets the height of div
+    tailwindcss flexbox: https://tailwindcss.com/docs/flex
+    w-auto -            width: auto;
+    flex -              display: flex;  // changes the layout from vertical to horizontal
+    flex-col -          flex-direction: column // changes the flex back to vertical
+    flex-col-reverse    flex-direction: column-reverse // changes the vertical display from ABCD to DCBA
+    flex-row            flex-direction: row // changes the flex to be horizontal left aligned
+    flex-row-reverse    flex-direction: row-reverse // changes the display to be right aligned, and from ABCD to DCBA
     -->
 
-    <div class="w-1/3 h-40 bg-red-500">
-        My Name is Brian Alegre
+    <div class="flex flex-row-reverse bg-red-500 w-auto">
+
+        <!--  
+        h-10 -          height: 2.5rem (40px)
+        w-10 -          width: 2.5rem (40px)
+
+        -->
+        <div class="h-10 w-10 bg-slate-500">A</div>
+        <div class="h-10 w-10 bg-green-800">B</div>
+        <div class="h-10 w-10 bg-blue-800">C</div>
+        <div class="h-10 w-10 bg-yellow-800">D</div>
+
     </div>
 
 </body>
