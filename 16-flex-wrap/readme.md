@@ -1,7 +1,6 @@
-## Layer Directive
+## Flex-Wrap
 
 ## Summary
-- Layer Directive is a way to overwrite some of the preset settings for a class or element. 
 
 ## Installation
 - Updated tailwind.config.js
