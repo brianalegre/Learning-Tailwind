@@ -11,15 +11,19 @@
 
 <body>
 
-    <!--  
-    flex-wrap -         flex-wrap: wrap // maintains the w-80 when resizing the screen
-    flex-wrap-reverse   flex-wrap-reverse: wrap // changes the direction of ABCD To DCBA
-    -->
-    <div class="flex flex-wrap bg-red-500 w-auto">
-        <div class="h-10 w-80 bg-slate-500">A</div>
-        <div class="h-10 w-80 bg-green-800">B</div>
-        <div class="h-10 w-80 bg-blue-800">C</div>
-        <div class="h-10 w-80 bg-yellow-800">D</div>
+
+    <div class="flex bg-red-500 w-auto">
+
+        <!--  
+        flex-1 -            flex: 1 1 0%  // Three values, flex-grow, flex-shrink, flex-basis
+                                          // All flex containers will grow and shrink at the same rate
+        flex-none -         flex: none    // Container are a static size, and are NOT responsive
+        flex-initial -      flex: 0 1 auto // Container does NOT grow, only shrinks
+        -->
+        <div class="flex-1 h-10 w-80 bg-slate-500">A</div>
+        <div class="flex-none h-10 w-80 bg-green-800">B</div>
+        <div class="flex-inital h-10 w-80 bg-blue-800">C</div>
+        <div class="flex-1 h-10 w-80 bg-yellow-800">D</div>
 
     </div>
 

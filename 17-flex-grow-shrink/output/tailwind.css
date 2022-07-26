@@ -569,6 +569,10 @@ h1 {
 
 /* Custom CSS Class with Tailwindcss classes */
 
+.static {
+  position: static;
+}
+
 .flex {
   display: flex;
 }
@@ -585,12 +589,24 @@ h1 {
   width: 20rem;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+.flex-1 {
+  flex: 1 1 0%;
 }
 
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
+.flex-none {
+  flex: none;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .bg-red-500 {
