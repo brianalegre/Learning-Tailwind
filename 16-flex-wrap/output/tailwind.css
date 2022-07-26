@@ -573,40 +573,24 @@ h1 {
   display: flex;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
 .h-10 {
   height: 2.5rem;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
 }
 
 .w-auto {
   width: auto;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-80 {
+  width: 20rem;
 }
 
-.flex-row {
-  flex-direction: row;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-col-reverse {
-  flex-direction: column-reverse;
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .bg-red-500 {
@@ -619,19 +603,9 @@ h1 {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
 .bg-green-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-800 {

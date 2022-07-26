@@ -12,26 +12,14 @@
 <body>
 
     <!--  
-    tailwindcss flexbox: https://tailwindcss.com/docs/flex
-    w-auto -            width: auto;
-    flex -              display: flex;  // changes the layout from vertical to horizontal
-    flex-col -          flex-direction: column // changes the flex back to vertical
-    flex-col-reverse    flex-direction: column-reverse // changes the vertical display from ABCD to DCBA
-    flex-row            flex-direction: row // changes the flex to be horizontal left aligned
-    flex-row-reverse    flex-direction: row-reverse // changes the display to be right aligned, and from ABCD to DCBA
+    flex-wrap -         flex-wrap: wrap // maintains the w-80 when resizing the screen
+    flex-wrap-reverse   flex-wrap-reverse: wrap // changes the direction of ABCD To DCBA
     -->
-
-    <div class="flex flex-row-reverse bg-red-500 w-auto">
-
-        <!--  
-        h-10 -          height: 2.5rem (40px)
-        w-10 -          width: 2.5rem (40px)
-
-        -->
-        <div class="h-10 w-10 bg-slate-500">A</div>
-        <div class="h-10 w-10 bg-green-800">B</div>
-        <div class="h-10 w-10 bg-blue-800">C</div>
-        <div class="h-10 w-10 bg-yellow-800">D</div>
+    <div class="flex flex-wrap bg-red-500 w-auto">
+        <div class="h-10 w-80 bg-slate-500">A</div>
+        <div class="h-10 w-80 bg-green-800">B</div>
+        <div class="h-10 w-80 bg-blue-800">C</div>
+        <div class="h-10 w-80 bg-yellow-800">D</div>
 
     </div>
 
