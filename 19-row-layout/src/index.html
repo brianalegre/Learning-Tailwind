@@ -11,13 +11,21 @@
 
 <body>
 
-    <div class="bg-red-500 w-auto grid grid-cols-3 gap-6">
+    <!--  
+    grid                    // Set display to grid
+    grid-row-3              // Set the flow of the cells, from top to bottom
+    grid-flow-col           // Sets the grid to continue to next columns after the 3rd row
+    -->
+    <div class="bg-red-500 w-auto grid grid-rows-3 grid-flow-col gap-6">
 
-        <div class="col-span-2 h-20 bg-slate-500">A</div>
+        <!--  
+        row-span-2          // Sets the cell to expand to two rows
+        -->
+        <div class="row-span-2 h-20 bg-slate-500">A</div>
         <div class="h-20 bg-green-800">B</div>
         <div class="h-20 bg-blue-800">C</div>
+        <div class="h-20 bg-blue-800">D</div>
 
-        <div class="h-20 bg-slate-500">D</div>
         <div class="h-20 bg-green-800">E</div>
         <div class="h-20 bg-blue-800">F</div>
 
