@@ -11,17 +11,22 @@
 
 <body>
 
-    <div class="bg-red-500 w-auto grid grid-cols-5 grid-flow-row gap-x-6 gap-y-6 justify-items-center">
+    <div class="bg-red-500 w-auto grid grid-cols-5 grid-flow-row gap-x-6 gap-y-6">
 
-        <div class="h-20 w-20 bg-slate-500">A</div>
+        <!--  
+        justify-self-start                // Sets the item to the right of the container
+        justify-self-center              // Sets the item to the center of the container
+        justify-self-stretch            // Fills the item to full size of the container
+        -->
+        <div class="h-20 w-20 bg-slate-500 justify-self-end">A</div>
         <div class="h-20 w-20 bg-green-800">B</div>
         <div class="h-20 w-20 bg-blue-800">C</div>
 
-        <div class="h-20 w-20 bg-blue-800">D</div>
+        <div class="h-20 w-20 bg-slate-500">D</div>
         <div class="h-20 w-20 bg-green-800">E</div>
-        <div class="h-20 w-20 bg-blue-800">F</div>
+        <div class="h-20 w-20 bg-blue-800 justify-self-center">F</div>
 
-        <div class="h-20 w-20 bg-slate-500">G</div>
+        <div class="h-20 bg-slate-500 justify-self-stretch">G</div>
         <div class="h-20 w-20 bg-green-800">H</div>
         <div class="h-20 w-20 bg-blue-800">I</div>
 
