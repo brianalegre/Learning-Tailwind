@@ -11,12 +11,28 @@
 
 <body>
 
+    <!--  
+    grid                    // Sets display to grid
+    grid-cols-3             // Creates 3 columns
+    gap-6                   // gap: 1.5rem (24px) // Creates a gap between each column and row
 
-    <div class="flex bg-red-500 w-auto">
-        <div class="flex-1 h-10 w-80 bg-slate-500">A</div>
-        <div class="flex-none h-10 w-80 bg-green-800">B</div>
-        <div class="flex-inital h-10 w-80 bg-blue-800">C</div>
-        <div class="flex-1 h-10 w-80 bg-yellow-800">D</div>
+    -->
+    <div class="bg-red-500 w-auto grid grid-cols-3 gap-6">
+
+        <!--  
+        col-span-2          // A will span two columns
+        -->
+        <div class="col-span-2 h-20 bg-slate-500">A</div>
+        <div class="h-20 bg-green-800">B</div>
+        <div class="h-20 bg-blue-800">C</div>
+
+        <div class="h-20 bg-slate-500">D</div>
+        <div class="h-20 bg-green-800">E</div>
+        <div class="h-20 bg-blue-800">F</div>
+
+        <div class="h-20 bg-slate-500">G</div>
+        <div class="h-20 bg-green-800">H</div>
+        <div class="h-20 bg-blue-800">I</div>
 
     </div>
 

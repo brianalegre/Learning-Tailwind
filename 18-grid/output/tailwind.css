@@ -569,44 +569,32 @@ h1 {
 
 /* Custom CSS Class with Tailwindcss classes */
 
-.static {
-  position: static;
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .flex {
   display: flex;
 }
 
-.h-10 {
-  height: 2.5rem;
+.grid {
+  display: grid;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .w-auto {
   width: auto;
 }
 
-.w-80 {
-  width: 20rem;
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
-.flex-none {
-  flex: none;
-}
-
-.flex-initial {
-  flex: 0 1 auto;
-}
-
-.shrink {
-  flex-shrink: 1;
-}
-
-.grow {
-  flex-grow: 1;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .bg-red-500 {
@@ -627,11 +615,6 @@ h1 {
 .bg-blue-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
 .display-none {
