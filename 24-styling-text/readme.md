@@ -1,4 +1,4 @@
-## Padding and Margin
+## Styling Text
 
 ## Summary
 
